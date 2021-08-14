@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Hind+Siliguri&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(doc.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;      
+}
+body:after {
+    content: "";
+    position: fixed;
+    pointer-events: none;
+  }
+
+.strange-links
+{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+.strange-links a 
+{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0.5em;
+}
+.strange-links li 
+{
+    list-style: none;
+    padding: 1em;
+}
+.strange-links ul 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right:3em;
+    
+}
+.strange-links a li .login-btn{
+    color: #fff !important;
+    background-color: #e41a1a;
+    border-color: #e41a1a;
+    font-size: 14px;
+    padding: 10px 30px;
+    user-select: none;
+    display: inline-block;
+    vertical-align: middle;
+    border: .25rem;
+    border-radius: 3px;
+    border: none;
+}
+.strange-links a :hover
+{
+    color: red;
+    text-decoration:underline;
+    text-decoration-color:#fffe;
+    transition: text-decoration color 0.4s ease-in-out;
+}
+.strange-links a li .login-btn:hover
+{
+    background-color: #0000ff;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in;
+
+}
+
+ .logo-title
+{
+    width: 150px;
+    margin-bottom: 28px;
+    margin-right: 30px;
+    filter: brightness(100%)
+}
+
+.container{
+    margin-top: 3em;
+    margin-left: 4rem;
+  
+}
+.premium-classic{
+    color:#222;
+    font-weight: 100;
+    background-color:#ffd230;
+    border-radius: 9px;
+    border: none;
+    max-width: 600px;
+    height: auto;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      
+}
+.strange-text
+{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.strange-section
+{
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: 'STIX Two Text', serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #fff;
+
+}
+.strange-hd
+{
+  border: 15px;
+
+  margin-right: 10px;
+}
+.strange-first-btn
+{
+   background-color: #fa0a0a;
+   display: inline-block;
+   font-family: 'STIX Two Text', serif;
+   font-weight: 400;
+   text-align: center;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border-radius: .25em;
+    line-height: 1.5;
+    font-size: 20px;
+    border: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.strange-second-btn
+{
+
+    font-family: 'STIX Two Text', serif;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+     color: #1c1c1c;
+     width: 200px;
+     height: 40px;
+     border-radius: .25em;
+     line-height: 1.5;
+     font-size: 20px;
+     border: none;
+     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+     margin: 1em;
+     color:black;
+     background-color:honeydew;
+     
+}
+.strange-first-btn:hover
+{
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.strange-second-btn:hover{
+       background-color:aliceblue;
+       color: #1c1c1c;
+       transition: all 0.4s ease-in;
+}
+.title-login-btn
+{
+    position: relative;
+    right: 40px;
+    background-color: #fa0a0a;
+    display: inline-block;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+     color: #fff;
+     width: 100px;
+     height: 45px;
+     line-height: 1.5;
+     font-size: 20px;
+     font-weight: 400;
+     border: none;
+     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+     text-align: center;
+
+}
+.title-login-btn:hover
+{
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
